@@ -43,12 +43,12 @@ var addNewItem = function(event) {
   };
 };
 
-//delete the list item function     (?????)
+//delete the list item function
 var deleteItem = function() {
   $(this).parent().remove();
 };
 
-//line-through when checkbox is checked    (??????)
+//line-through when checkbox is checked
 var checkItem = function() {
   if ($(this).parent().css('textDecoration') == 'line-through') {
   	$(this).parent().css('textDecoration', 'none');
